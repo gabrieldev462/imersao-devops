@@ -18,3 +18,4 @@ EXPOSE 8000
 
 # Comando para executar a aplicação (será sobrescrito pelo docker-compose para desenvolvimento)
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
